@@ -1,0 +1,31 @@
+.preview {
+  * {
+    cursor: pointer;
+    &:hover img {
+      width: 107%;
+    }
+  }
+  img {
+    width: 100%;
+    transition: width 300ms;
+  }
+  p {
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    color: rgb(103, 103, 103);
+  }
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  aspect-ratio: 1002 / 801;
+  border-radius: 20px;
+}
+
+.bordered {
+  border: 1px solid #cfcfcf;
+}

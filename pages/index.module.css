@@ -1,0 +1,140 @@
+.main {
+  min-height: 100vh;
+  padding: 80px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.main  h1 {
+  margin-bottom: 80px;
+}
+.link {
+  cursor: pointer;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  max-width: 1160px;
+  width: 100%;
+  @media (max-width: 799px) {
+    flex-direction: column;
+  }
+}
+.col {
+  flex: 1 0 40%;
+  margin: 0 30px;
+  @media (max-width: 799px) {
+    flex: 1 0 100%;
+    margin: 0 15px;
+  }
+}
+.col.wide {
+  flex: 1 0 60%;
+}
+.section {
+  margin-bottom: 100px;
+}
+
+.faint {
+  color: #a2a2a2;
+  font-size: 15px;
+  font-weight: 300;
+}
+.tooltip {
+  position: absolute;
+  display: none;
+  opacity: 1;
+  top: -40px;
+  left: -69px;
+  width: 240px;
+  text-align: center;
+  background: #505050;
+  color: #fcfcfc;
+  padding: 8px;
+  border-radius: 9px;
+  font-size: 13px;
+  width: 240px;
+  box-sizing: content-box;
+  cursor: default;
+  transition: opacity 1000ms linear;
+}
+
+@media (max-width: 499px) {
+  .tooltip {
+    left: 0;
+  }
+}
+
+.showTooltip {
+  display: block;
+}
+
+.fadeOut {
+  opacity: 0;
+}
+
+.bankLogo {
+  /* height: 80px; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.buseyBank {
+}
+.paymentApps {
+  display: flex;
+  max-width: 800px;
+  flex-direction: row;
+  @media(max-width: 799px) {
+    flex-direction: column;
+  }
+}
+.paymentApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 40%;
+  margin-bottom: 40px;
+  @media(max-width: 799px) {
+    flex: 1 0 100%;
+  }
+}
+.venmo {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 15px;
+}
+.venmoLogo {
+  min-width: unset !important;
+  width: 170px !important;
+}
+.venmoQR {
+}
+.cashApp {
+  text-align: center;
+}
+.cashAppLogo {
+  min-width: unset !important;
+  width: 240px !important;
+  height: 57px;
+}
+.cashAppQR {
+  img {
+    width: 170px;
+    height: 170px;
+  }
+}
+.chime {
+}
+.chimeLogo {
+}
+.capitalOne {
+}
+.capitalOneLogo {
+}
+.spacer {
+  display: inline-flex;
+  width: 15px;
+}

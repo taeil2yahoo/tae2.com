@@ -1,0 +1,32 @@
+.container {
+  padding: 20px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+
+  @media (max-width: 799px) {
+    margin-right: 0;
+  }
+  p:last-child {
+    color: rgb(24, 24, 24);
+    margin-bottom: 0;
+  }
+  a {
+    color: rgb(16, 138, 0);
+    &:hover {
+      color: rgb(20, 168, 0);
+    }
+  }
+}
+
+.imageContainer {
+  flex: 1 0 120px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.link {
+  color: rgb(103, 103, 103);
+}
