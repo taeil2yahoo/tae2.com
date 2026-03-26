@@ -53,6 +53,8 @@ h2 {
 }
 h3 {
   font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 0.4em;
 }
 h4 {
   font-size: 36px;
@@ -60,4 +62,17 @@ h4 {
 }
 a {
   color: #1581f2;
+}
+ul {
+  margin-left: 16px;
+  line-height: 1.4em;
+}
+ul li {
+  margin-bottom: 1.4em;
+}
+ul ul {
+  margin-top: 0.4em;
+}
+ul ul li {
+  margin-bottom: 0.4em;
 }
