@@ -1,6 +1,6 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fcfcfc;
+  --foreground: #444;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,4 +39,25 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  margin-bottom: 2em;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 36px;
+  margin-bottom: 0.5em;
+}
+a {
+  color: #1581f2;
 }
