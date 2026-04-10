@@ -23,7 +23,7 @@
   }
 }
 .col {
-  flex: 1 0 40%;
+  flex: 1 0 41%;
   margin: 0 30px;
   @media (max-width: 799px) {
     flex: 1 0 100%;
@@ -31,7 +31,7 @@
   }
 }
 .col.wide {
-  flex: 1 0 60%;
+  flex: 1 0 55%;
 }
 .section {
   margin-bottom: 100px;
@@ -81,12 +81,14 @@
   justify-content: center;
   margin-bottom: 40px;
 }
-.buseyBank {
+.buseyBank h3:last-of-type {
+  margin-top: 40px;
 }
 .paymentApps {
   display: flex;
   max-width: 800px;
-  flex-direction: row;
+  /* flex-direction: row; */
+  flex-direction: column;
   @media(max-width: 799px) {
     flex-direction: column;
   }
@@ -138,5 +140,5 @@
 }
 .spacer {
   display: inline-flex;
-  width: 15px;
+  width: 5px;
 }

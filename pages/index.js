@@ -22,11 +22,14 @@ export default function Home() {
           content="How to Send the Money"
         />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
       </Head>
       <main className={styles.main}>
         <h1>How to Send the Money</h1>
         <div className={styles.row}>
-          <div className={`${styles.col} ${styles.wide}`}>
+          <div className={`${styles.col}`}>
             <div className={styles.section}>
               <h2>Send through Venmo or Cash App</h2>
               <div className={styles.paymentApps}>
@@ -113,11 +116,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className={styles.col}>
+          <div className={`${styles.col} ${styles.wide}`}>
             <div className={styles.section}>
               <h2>Send a Wire Transfer</h2>
               <div className={styles.buseyBank}>
-                <div
+                {/* <div
                   // className={`${styles.bankLogo} ${styles.buseyBankLogo}`}
                   className={styles.bankLogo}
                 >
@@ -128,23 +131,29 @@ export default function Home() {
                     height={57}
                     className={styles.buseyBankLogo}
                   />
-                </div>
-                <h3>Account Number</h3>
-                <h4>
-                  2305
-                  <span className={styles.spacer} />
-                  8777
-                  <span className={styles.spacer} />
-                  7034
-                </h4>
-                <h3>Routing Number</h3>
-                <h4>
-                  071
-                  <span className={styles.spacer} />
-                  102
-                  <span className={styles.spacer} />
-                  568
-                </h4>
+                </div> */}
+                <h3>International Transfer</h3>
+                <p>
+                  <strong>Recipient Name:</strong> Taeil Kwak<br />
+                  <strong>Recipient Address:</strong> 2727 Hawthorn Lane,Wilmette, IL 60091<br />
+                  <br />
+                  <strong>IBAN Number:</strong> ???<br />
+                  <strong>SWIFT/BIC Code:</strong> BUYEUS44<br />
+                  <br />
+                  <strong>Bank Name:</strong> Busey Bank<br />
+                  <strong>Bank Address:</strong> 100 W University Ave, Champaign, IL 61820
+                </p>
+                <h3>US Transfer</h3>
+                <p>
+                  <strong>Recipient Name:</strong> Taeil Kwak<br />
+                  <strong>Recipient Address:</strong> 2727 Hawthorn Lane, Wilmette, IL 60091<br />
+                  <br />
+                  <strong>Account Number:</strong> 2305<span className={styles.spacer} />8777<span className={styles.spacer} />7034<br />
+                  <strong>Routing Number:</strong> 071<span className={styles.spacer} />102<span className={styles.spacer} />568<br />
+                  <br />
+                  <strong>Bank Name:</strong> Busey Bank<br />
+                  <strong>Bank Address:</strong> 100 W University Ave, Champaign, IL 61820
+                </p>
               </div>
             </div>
           </div>

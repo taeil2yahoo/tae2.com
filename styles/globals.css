@@ -43,6 +43,7 @@ a {
 
 
 h1, h2, h3, h4 {
+  font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 h1 {
@@ -50,15 +51,25 @@ h1 {
 }
 h2 {
   margin-bottom: 2em;
+  font-size: 29px;
+  font-weight: 600;
 }
 h3 {
   font-size: 24px;
-  font-weight: 400;
-  margin-bottom: 0.4em;
+  font-weight: 500;
+  margin-bottom: 0.9em;
 }
 h4 {
   font-size: 36px;
+  font-weight: 600;
   margin-bottom: 0.5em;
+}
+p {
+  font-size: 18px;
+  line-height: 1.4em;
+}
+strong {
+  font-weight: 600;
 }
 a {
   color: #1581f2;
