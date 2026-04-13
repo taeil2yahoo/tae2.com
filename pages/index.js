@@ -132,6 +132,7 @@ export default function Home() {
                     className={styles.buseyBankLogo}
                   />
                 </div> */}
+                {/*
                 <h3>International Transfer</h3>
                 <p>
                   <strong>Recipient Name:</strong> Taeil Kwak<br />
@@ -153,6 +154,17 @@ export default function Home() {
                   <br />
                   <strong>Bank Name:</strong> Busey Bank<br />
                   <strong>Bank Address:</strong> 100 W University Ave, Champaign, IL 61820
+                </p> 
+                */}
+                <p>
+                  <strong>Recipient Name:</strong> Taeil Kwak<br />
+                  <strong>Recipient Address:</strong> 2727 Hawthorn Lane,Wilmette, IL 60091<br />
+                  <br />
+                  <strong>Routing Number:</strong> 041<span className={styles.spacer} />215<span className={styles.spacer} />663<br />
+                  <strong>Account Number:</strong> 129<span className={styles.spacer} />389<span className={styles.spacer} />102<span className={styles.spacer} />7716<br />
+                  <br />
+                  <strong>Bank Name:</strong> SUTTON BANK<br />
+                  <strong>Bank Address:</strong> PO Box 505, Attica, OH 44807
                 </p>
               </div>
             </div>
